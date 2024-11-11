@@ -7,8 +7,8 @@
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp N1>, <&kp N2>, <&kp N3>;
+            tapping-term-ms = <500>;
+            bindings = <&kp LGUI(N1)>, <&kp LGUI(N2)>, <&kp LGUI(N3)>;
         };
     };
 
