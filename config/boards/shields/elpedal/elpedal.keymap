@@ -1,21 +1,14 @@
-/*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    keymap {
+    keypam {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp X
-                &kp Z
+                &kp KP_N7
             >;
         };
     };
