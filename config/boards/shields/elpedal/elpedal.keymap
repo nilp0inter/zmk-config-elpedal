@@ -3,10 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    &mt {
-        tapping-term-ms = <200>;
-    };
-
     behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
